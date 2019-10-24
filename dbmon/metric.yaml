@@ -1,0 +1,14 @@
+
+# metricname , type of db to inspect , instancename,  operator, limit value, warning type, unit,  on/off  
+1.DatabaseConnections: [ "all"    ,"all"             ,"lt", 10           , "info" , "count"        ,"on"]
+2.DatabaseConnections: [ "all"    ,"all"             ,"gt", 100          , "info" , "count"        ,"on"]
+3.CPUUtilization     : [ "all"    ,"all"             ,"gt", 60           , "info" , "%"            ,"on"]
+4.FreeableMemory     : [ "all"    ,"all"             ,"lt", 10           , "info" , "%"            ,"on"]
+5.ReadLatency        : [ "mysql"  ,"all"             ,"gt", 5000         , "info" , "latency(msec)","on"]
+6.WriteLatency       : [ "mysql"  ,"all"             ,"gt", 5000         , "info" , "latency(msec)","on"]
+7.FreeStorageSpace   : [ "mysql"  ,"all"             ,"lt", 10           , "info" , "%"            ,"on"]
+8.FreeStorageSpace   : [ "mysql"  ,"mysqldatabase-3" ,"lt", 10737418240  , "info" , "byte"         ,"on"]
+9.Deadlocks          : [ "aurora" ,"all"             ,"gt", 1            , "info" , "count"        ,"on"]
+10.DMLLatency        : [ "aurora" ,"all"             ,"gt", 5000         , "info" , "latency(msec)","on"]
+11.DMLThroughput     : [ "aurora" ,"all"             ,"gt", 30           , "info" , "count"        ,"on"]
+12.Queries           : [ "aurora" ,"all"             ,"gt", 30           , "info" , "count"        ,"on"]

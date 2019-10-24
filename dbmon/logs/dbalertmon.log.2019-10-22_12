@@ -1,0 +1,28 @@
+2019-10-22 12:18:53,199 - dbmon - INFO - info message
+2019-10-22 12:18:53,199 - dbmon - WARNING - warn message
+2019-10-22 12:18:53,199 - dbmon - ERROR - error message
+2019-10-22 12:18:53,199 - dbmon - CRITICAL - critical message
+2019-10-22 12:18:53,434 - dbmon - INFO - check if server=aurora-dev-db01 metric=DatabaseConnections  result=2.00 less than 1.00 count
+2019-10-22 12:18:53,489 - dbmon - INFO - check if server=aurora-dev-db01 metric=DatabaseConnections  result=2.00 greater than 100.00 count
+2019-10-22 12:18:53,544 - dbmon - INFO - check if server=aurora-dev-db01 metric=CPUUtilization  result=6.00 greater than 50.00 %
+2019-10-22 12:18:53,600 - dbmon - INFO - check if server=aurora-dev-db01 metric=FreeableMemory  result=29.78 less than 10.00 %
+2019-10-22 12:18:53,600 - dbmon - INFO - skip ..engine=aurora metric type= mysql
+2019-10-22 12:18:53,600 - dbmon - INFO - skip ..engine=aurora metric type= mysql
+2019-10-22 12:18:53,600 - dbmon - INFO - skip ..engine=aurora metric type= mysql
+2019-10-22 12:18:53,676 - dbmon - INFO - check if server=aurora-dev-db01 metric=Deadlocks  result=0.00 greater than 1.00 count
+2019-10-22 12:18:53,730 - dbmon - INFO - check if server=aurora-dev-db01 metric=DMLLatency  result=0.22 greater than 5.00 latency
+2019-10-22 12:18:53,787 - dbmon - INFO - check if server=aurora-dev-db01 metric=DMLThroughput  result=0.50 greater than 30.00 count
+2019-10-22 12:18:53,842 - dbmon - INFO - check if server=aurora-dev-db01 metric=Queries  result=5.69 greater than 30.00 count
+2019-10-22 12:18:53,900 - dbmon - INFO - check if server=mysqldatabase-2 metric=DatabaseConnections  result=0.00 less than 1.00 count
+2019-10-22 12:18:53,900 - dbmon - INFO - [info]...server=mysqldatabase-2 metric=DatabaseConnections  result=0.00 less than 1.00 count
+2019-10-22 12:18:55,065 - dbmon - INFO - Success to send message.
+2019-10-22 12:18:55,112 - dbmon - INFO - check if server=mysqldatabase-2 metric=DatabaseConnections  result=0.00 greater than 100.00 count
+2019-10-22 12:18:55,159 - dbmon - INFO - check if server=mysqldatabase-2 metric=CPUUtilization  result=1.00 greater than 50.00 %
+2019-10-22 12:18:55,205 - dbmon - INFO - check if server=mysqldatabase-2 metric=FreeableMemory  result=74.69 less than 10.00 %
+2019-10-22 12:18:55,259 - dbmon - INFO - check if server=mysqldatabase-2 metric=ReadLatency  result=0.00 greater than 5000.00 latency(msec)
+2019-10-22 12:18:55,307 - dbmon - INFO - check if server=mysqldatabase-2 metric=WriteLatency  result=0.33 greater than 5000.00 latency(msec)
+2019-10-22 12:18:55,356 - dbmon - INFO - check if server=mysqldatabase-2 metric=FreeStorageSpace  result=20067569664.00 less than 10737418240.00 byte
+2019-10-22 12:18:55,356 - dbmon - INFO - skip ..engine=mysql metric type= aurora
+2019-10-22 12:18:55,356 - dbmon - INFO - skip ..engine=mysql metric type= aurora
+2019-10-22 12:18:55,357 - dbmon - INFO - skip ..engine=mysql metric type= aurora
+2019-10-22 12:18:55,357 - dbmon - INFO - skip ..engine=mysql metric type= aurora
