@@ -59,17 +59,17 @@ db_classes_mem = {
     }
 
 prd_telegram_info = {
-    "alert":{  "botToken":'bot907376951:AAF9U-egSCHKpKXt5-Ek8zLNRnv0X7s8Svg',
-				"chat_id":'-367539024'},
-    "info":{   "botToken":'bot958255441:AAEuxzQudyJTXlBc2673X1qurfD9bT-ghDo',
-				"chat_id":'-352889343'}, 
+    "alert":{  "botToken":'xxxxxx',
+				"chat_id":'-xxxxx'},
+    "info":{   "botToken":'xxxx',
+				"chat_id":'-3xxxxx'}, 
 	} 
 
 dev_telegram_info = {
-    "alert":{  "botToken":'bot907376951:AAF9U-egSCHKpKXt5-Ek8zLNRnv0X7s8Svg',
-				"chat_id":'338790271'},
-    "info":{   "botToken":'bot958255441:AAEuxzQudyJTXlBc2673X1qurfD9bT-ghDo',
-				"chat_id":'338790271'}, 
+    "alert":{  "botToken":'bot90737xxxx',
+				"chat_id":'xxx'},
+    "info":{   "botToken":'bot9582554xxxx',
+				"chat_id":'xxxx'}, 
 	} 
 
 
