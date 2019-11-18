@@ -1,5 +1,4 @@
-# awsutils
-various utility program that can use on AWS
+Gradually, I will add a various utility programs that can use on AWS
 
 ## dbmon
 The dbmon get the mornintoring metrics of AWS RDS DB ( mysql, aurora) periodically and compare it with the threshold value in the configuration file, if the comparion result is abnoraml, the dbmon send alert message  via telegram
