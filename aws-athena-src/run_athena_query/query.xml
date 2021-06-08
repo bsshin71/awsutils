@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<queries>
+	<query num="1">
+	    <sql>select udate, evtype
+			 from bosuserparquet
+			 where partition_0='bosactlog' and _year='2021' and _month='06' and _day='03'
+			 limit 10
+		 </sql>
+		<maxwait>30</maxwait>
+		<table>udate</table>
+		<onoff>on</onoff>
+	</query>
+	<query num="2" >
+		<sql>select udate, evtype
+			 from bosuserparquet
+			 where partition_0='bosactlog' and _year='2021' and _month='06' and _day='03'
+			 limit 20</sql>
+		<maxwait>40</maxwait>
+		<table>udate</table>
+		<onoff>off</onoff>
+	</query>
+</queries>

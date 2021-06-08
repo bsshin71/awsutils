@@ -1,0 +1,25 @@
+{
+    "description": "configuration for athena query executor",
+    "version": 1,
+	"athena": {
+		"access_key_id": "*****",
+		"secret_access_key": "********",
+		"region_name": "ap-northeast-2",
+		"endpoint_url": "https://xxxxx.athena.ap-northeast-2.vpce.amazonaws.com",
+		"database": "log",
+		"outpath": "athena_result"
+	},
+	"s3": {
+		"access_key_id": "*****",
+		"secret_access_key": "*******",
+		"region_name": "ap-northeast-2",
+        "bucket" : "dev-log-analysis"
+	},
+	"postgresql": {
+		"host": "10.1.1.1",
+		"port": "5432",
+		"user": "user",
+		"password": "****",
+		"database": "***"
+	}
+}
