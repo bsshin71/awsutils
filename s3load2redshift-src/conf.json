@@ -1,0 +1,21 @@
+{
+    "description": "configuration for loader process",
+    "version": 1,
+        "sqs": {
+                "access_key_id": "*****",
+                "secret_access_key": "*****",
+                "region_name": "ap-northeast-2",
+                "endpointurl": "https://vpce-.sqs.ap-northeast-2.vpce.amazonaws.com",
+                "queuename": "s3load.fifo"
+        },
+        "postgresql": {
+                "host": "redshift-cluster-test.redshift.amazonaws.com",
+                "port": "5439",
+                "user": "awsuser",
+                "password": "*********",
+                "database": "bosdw"
+        },
+    "main" : {
+      "threadnum" : 4
+    }
+}
