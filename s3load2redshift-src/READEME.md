@@ -16,6 +16,7 @@ reshift로 로딩하는 작업을 반복한다.
 | logconfig.py | log 설정파일 |
 | main.py| main 실행모듈 |
 | posgresql.py| DB접속 class ( redshift 가능 )|
+| lambda_function.py| s3 object 등록 event 감지 ( aws lambda function으로 등록|
 
 # 설치
 pip install -r requirement.txt
