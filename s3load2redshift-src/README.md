@@ -5,6 +5,7 @@ s3 에 파일에 upload되면 upload Event 정보가 aws SQS로 전송된다.
 읽어 새로 upload된 s3 파일의 내용을  redshift copy from 구문으로 실행해서
 reshift로 로딩하는 작업을 반복한다.
 
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FRohEO%2Fbtrhw8VKV4u%2FCqEY7q7QjKnXcVFJsOZoP1%2Fimg.png)
 
 ## 실제 파일 : 리스트에 없는 파일들은 사용하지 않는 테스트용 파일이다.
 
