@@ -1,0 +1,26 @@
+{
+  "source": {
+    "config": {},
+    "id": "1wfNbZ0dtPUrufFIIqXD1rMm6Ci",
+    "name": "http_api",
+    "writeKey": "1wYxNFWqZHmRxdn2tOKSOQLBVON",
+    "enabled": true,
+    "sourceDefinitionId": "1b6gJdqOPOCadT3cddw8eidV591",
+    "deleted": false,
+    "createdAt": "Fri Aug 13 2021 18:31:22 GMT+0900 (KST)",
+    "updatedAt": "Fri Aug 13 2021 18:31:22 GMT+0900 (KST)",
+    "sourceDefinition": {
+      "id": "1b6gJdqOPOCadT3cddw8eidV591",
+      "name": "HTTP",
+      "options": null,
+      "displayName": "HTTP",
+      "category": null,
+      "createdAt": "2020-04-27T03:24:46.787Z",
+      "updatedAt": "2020-06-18T11:54:03.600Z"
+    },
+    "destinations": []
+  },
+  "metadata": {
+    "version": "1.0.2"
+  }
+}

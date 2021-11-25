@@ -1,0 +1,85 @@
+<head> <link rel="shortcut icon" href="#"> </head>
+<script>
+    rudderanalytics = window.rudderanalytics = [];
+
+    var  methods = [
+        "load",
+        "page",
+        "track",
+        "identify",
+        "alias",
+        "group",
+        "ready",
+        "reset",
+        "getAnonymousId",
+    "setAnonymousId"
+    ];
+
+    for (var i = 0; i < methods.length; i++) {
+          var method = methods[i];
+          rudderanalytics[method] = function (methodName) {
+                return function () {
+                      rudderanalytics.push([methodName].concat(Array.prototype.slice.call(arguments)));
+                };
+              }(method);
+    }
+    // rudderanalytics.load("1wYxNFWqZHmRxdn2tOKSOQLBVON"  , "https://mysoftwizfmbu.dataplane.rudderstack.com");  // cloud server
+	rudderanalytics.load("1wYxNFWqZHmRxdn2tOKSOQLBVON"  , "http://localhost:8000",   // pycharm uvicorn serer
+	//rudderanalytics.load("1wYxNFWqZHmRxdn2tOKSOQLBVON"  , "http://localhost:8080",  // virtualbox docker server
+      {
+		     logLevel: "DEBUG",
+			 configUrl: "http://localhost:8000"
+	  }
+	 );
+    //For example,
+    //rudderanalytics.load("1Qb1F3jSWv0eKFBPZcrM7ypgjVo", "http://localhost:8080");
+    //rudderanalytics.page();
+	rudderanalytics.identify(
+	  "userId",
+	  { email: "name@domain.com" ,
+ 	    ip: "14.5.67.21",
+		library: {
+		name : "http"
+		},
+		group: "mygroup"
+	  },
+	  {
+		newfield: {
+		  path: "",
+		  referrer: "",
+		  search: "",
+		  title: "xxxxxxxxx",
+		  url: "",
+		}
+	  },
+	  () => {
+		console.log("in identify call");
+	  }
+	);
+ //  rudderanalytics.page(
+ //    "Cart",
+ //   "Cart Viewed",
+ //    {
+ //  	path: "",
+ //  	referrer: "",
+ //  	search: "",
+ //  	title: "",
+ //  	url: "",
+ //    },
+ //    () => {
+ //  	console.log("in page call");
+ //    }
+ //  );
+ //
+ //rudderanalytics.alias(
+ //  "newUserIdentifier",
+ //  "oldUserIdentifier",
+ //  "",
+ //  () => {
+ //	console.log("in alias call");
+ //  }
+ //);
+
+</script>
+
+<script src="https://cdn.rudderlabs.com/v1/rudder-analytics.min.js"></script>
