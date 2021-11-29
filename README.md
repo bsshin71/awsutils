@@ -10,6 +10,6 @@ the whole source code is simple and short, but  you can subscribe  the every eve
 
 
 ## s3load2redshift-src
-when the new object is uploaded to s3 bucket , it's event transfer to  AWS SQS
+when the new object is uploaded to s3 bucket , it's event be transfered to  AWS SQS
 this loader program polling the new event from the queue of AWS SQS, and when it receives new event then loader program upload it to redshift with using 'copy from xxx' command
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FRohEO%2Fbtrhw8VKV4u%2FCqEY7q7QjKnXcVFJsOZoP1%2Fimg.png)
