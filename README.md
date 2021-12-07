@@ -5,7 +5,7 @@ athena query runner.
 After reading and executing the sql statement in the config file, the result is saved in the DB.
 
 ## aws-glue-src
-A glue etl job source that converts a json format file into a parquet file
+It is a glue etl job source that converts the json format file stored in s3 into a parquet format file.
 
 ## cdp-rudderbackend-src
 It is a backend api server source that can receive requests from rudderstack api.
