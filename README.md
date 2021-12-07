@@ -8,6 +8,8 @@ The rdseventNoti is a lambda code which can be called in AWS service,  AWS  clou
 when RdsEventNoti Lambda receives the event  from cloudwatch , then it deliver the event  received  to the telegram.
 the whole source code is simple and short, but  you can subscribe  the every event which occurred in RDS DB .
 
+## cdp-rudderbackend-src
+It is a backend api server source that can receive requests from rudderstack api.
 
 ## s3load2redshift-src
 when the new object is uploaded to s3 bucket , it's event be transfered to  AWS SQS
